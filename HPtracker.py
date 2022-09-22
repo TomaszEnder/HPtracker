@@ -14,7 +14,7 @@ class Mob:
         print(self.name + " reduced to", self.hp, "HP.")
 
 
-print("HP bars set\up. Enter values for 10 enemies. If there is less than 10, set HP to 0 for empty slots:")
+print("HP bars setup. Enter values for 10 enemies. If there is less than 10, set HP to 0 for empty slots:")
 mob1 = Mob("Enemy#1", int(input("Set HP for Enemy#1: ")))
 mob1.hp_set()
 
